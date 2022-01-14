@@ -3,4 +3,4 @@ from typing import Sequence
 import streamlit as st
 
 for i in range(len(st.secrets["things_i_like"])):
-  print(i)
+  print(i+7)
